@@ -1,0 +1,17 @@
+ <script>
+if (!$.PRIMO.session.user.isLoggedIn()) {        
+        $('body').prepend('<span id="myLoginMessage" style="display:block;top:0;background-color:orange;width:100%;text-align:center;">Please login for more results</span>');
+    }
+</script>
+	<div class="EXLHomeListsContainer">
+        <div class="EXLHomeTopicsContainer">
+          <h2>Search Tips:</h2><br>
+
+          <ul>
+            <li>Use quotes to search for <b>phrases</b> example: <a href="#">"Civil War"</a></li> <br/>
+            <li>Use an * for <b>wildcard searches</b> example: <a href="#">biochem*</a> will return biochemistry and biochemical</li> <br/>
+            <li>AND, OR and NOT can be used for <b>boolean logic</b> example: <a href="#">((biomedical AND engineering) NOT nuclear)</a></li> <br/>
+            <li>Boolean operators (AND, OR, NOT) must be ALL CAPS</li><br/>
+          </ul>
+        </div>
+      </div>

@@ -1,0 +1,18 @@
+ <script>
+if (!$.PRIMO.session.user.isLoggedIn()) {        
+        $('body').prepend('<span id="myLoginMessage" style="display:block;top:0;background-color:orange;width:100%;text-align:center;">Please login for more results</span>');
+    }
+</script>
+	<div class="EXLHomeListsContainer">
+        <div class="EXLHomeTopicsContainer">
+          <h2>Search Tips:</h2><br>
+
+          <ul>
+            <li>Use quotes to search for <b>phrases</b> example: <a href="http://galileo-usg-gptc-primo.hosted.exlibrisgroup.com/primo_library/libweb/action/search.do?fn=search&ct=search&initialSearch=true&mode=Basic&tab=default_tab&indx=1&dum=true&srt=rank&vid=GPTC_V1&frbg=&tb=t&vl%28freeText0%29=civil+war&scp.scps=scope%3A%28GCSU%29&vl%281UIStartWith0%29=contains">"Civil War"</a></li> <br/>
+            <li>Use an * for <b>wildcard searches</b> example: <a href="http://galileo-usg-gptc-primo.hosted.exlibrisgroup.com/primo_library/libweb/action/search.do?fn=search&ct=search&initialSearch=true&mode=Basic&tab=default_tab&indx=1&dum=true&srt=rank&vid=GPTC_V1&frbg=&tb=t&vl%28freeText0%29=biochem*&scp.scps=scope%3A%28GCSU%29&vl%281UIStartWith0%29=contains">biochem*</a> will return biochemistry and biochemical</li> <br/>
+            <li>AND, OR and NOT can be used for <b>boolean logic</b> example: <a href="http://galileo-usg-gptc-primo.hosted.exlibrisgroup.com/primo_library/libweb/action/search.do?fn=search&ct=search&initialSearch=true&mode=Basic&tab=default_tab&indx=1&dum=true&srt=rank&vid=GPTC_V1&frbg=&tb=t&vl%28freeText0%29=%28%28biomedical+AND+engineering%29+NOT+nuclear%29&scp.scps=scope%3A%28GCSU%29&vl%281UIStartWith0%29=contains
+">((biomedical AND engineering) NOT nuclear)</a></li> <br/>
+            <li>Boolean operators (AND, OR, NOT) must be ALL CAPS</li><br/>
+          </ul>
+        </div>
+      </div>

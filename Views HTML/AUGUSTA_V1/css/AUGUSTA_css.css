@@ -1,0 +1,265 @@
+/* === MENU RIBBONS === */
+/*===================== */
+
+/*Simple Search Ribbon (what you see on the landing page)*/
+#exlidSearchTile {
+	background-color:#123456;
+	background-image: none;
+	border-top: 1px solid #F8F9FA;
+	border-bottom: 1px solid #F8F9FA;
+}
+
+/*Advanced Search Ribbon */
+#exlidAdvancedSearchTile {
+	background-color:#123456;
+	background-image: none;
+	border-top: 1px solid #F8F9FA;
+	border-bottom: 1px solid #F8F9FA;
+}
+
+/* Controls Link Text of the Tabs on the Simple Search Ribbon */
+
+
+/*Tab0 = GIL-Find*/
+#exlidTab0.EXLSearchTab.EXLSearchTabSelected a {
+	color: #000000;
+}
+
+#exlidTab0 a{
+	color: #FFFFFF;
+}
+
+
+/*Tab1 = Course Reserves */
+
+#exlidTab1.EXLSearchTab.EXLSearchTabSelected a {
+	color: #000000;
+}
+#exlidTab1 a {
+	color: #FFFFFF;
+}
+
+/* Controls text color for Advanced and Browse Search on Simple Search */
+
+.EXLSearchFieldRibbonAdvancedSearchLink a.EXLSearchFieldRibbonAdvancedTwoLinks {
+	color:#FFFFFF;
+}
+
+.EXLSearchFieldRibbonBrowseSearchLink a { 
+	color:#FFFFFF;
+}
+
+/* Controls what the top link looks like when it's selected. It's only used for Journals A-Z currently */
+
+/*Controls the selected link itself */
+#exlidMainMenuRibbon li.EXLMainMenuItemSelected span a {
+    background-color: #F8F9FA;
+    background-image: none;
+    border: 1px solid #F8F9FA;
+}
+
+/*Controls the "close tab image (little circle with an X)" */
+#exlidMainMenuRibbon li span.EXLMainMenuItemSelectedClose {
+    background-image: url(../UGA_TEST/close_tab.png);
+}
+
+/* Controls the right-border of the box block behind the close tab image */
+#exlidMainMenuRibbon li.EXLMainMenuItemSelected span a.EXLMainMenuITEMATOZClose {
+    border-right: 1px solid #F8F9FA;
+}
+
+/* Controls the advanced search and browse search links on the Simple Search Ribbon*/
+.EXLSearchFieldRibbonAdvancedSearchLink {
+	color:#FFFFFF;
+}
+.EXLSearchFieldRibbonBrowseSearchLink {
+	color:#FFFFFF;
+}
+
+/* Controls Search Scope Text */
+
+span.EXLSearchFieldStrippedText {
+	color: #000000;
+}
+
+/* Controls Simple Search link in Advanced Search and Browse Search */
+
+.EXLSearchFieldRibbonFormLinks a {
+	color:#FFFFFF;
+}
+
+/* Controls border of search input boxes */
+
+#exlidAdvancedSearchRibbon div.EXLSearchFieldRibbon {
+	border: 1px solid #F8F9FA;
+}
+
+#exlidSearchRibbon div.EXLSearchFieldRibbon {
+	border: 1px solid #F8F9FA;	
+}
+
+#exlidAdvancedSearchRibbon div.EXLBrowseFieldRibbon {
+	border: 1px solid #F8F9FA;
+}
+
+/* === Welcome Area (content underneath search) === */
+/*==================== */
+
+/* Controls color of header text */
+#exlidHomeContainer h2 {
+	color: #123456;
+}
+
+/* Controls color of header text that is also a link (e.g., "Access My Library Account" */
+#exlidHomeContainer h2 a, h2 a:link, h2 a:visited {
+	color: #123456;
+}
+/* Controls the bullet image used under "Access My Library" (this probably won't need to be changed)*/
+
+#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock2 div.EXLHomeNewsContainer li {
+    background-image: url(../UGA_TEST/bullet_arrow.png);
+}
+
+/* === BUTTONS === */
+/*===================== */
+
+/* Simple Search Button */
+#exlidSearchRibbon input.submit {
+    background-color: #F8F9FA;
+    background-image: none;
+    text-transform: uppercase;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 90%;
+	color: #000000;
+}
+
+/* Advanced Search Button */
+#exlidAdvancedSearchRibbon input.submit {
+	background-color: #F8F9FA;
+    background-image: none;
+    text-transform: uppercase;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 90%;
+	color: #000000;
+}
+
+/* === INPUT/SELECT BOXES === */
+/*=====Changes Border around boxes== */
+
+/* Advanced Search Input Boxes */
+#exlidAdvancedSearchRibbon input {
+	border-color: #123456;
+}
+
+/* Advanced Select Box Select Boxes */
+#exlidAdvancedSearchRibbon select {
+	border-color: #123456;
+}
+
+/* Browse Search Input Box */
+.EXLSearchFieldRibbonFormBrowseSearchFor {
+	border: 1px solid #000000;
+}
+
+/* Browse Search Select Box */
+.EXLSearchFieldRibbonFormSelectedBrowse {
+	border: 1px solid #000000;
+}
+
+
+/* === A-Z Display === */
+/*==================== */
+
+/*Journals A-Z Search Ribbon (yes, the class is mispelled)*/
+#exlidSearchTile.EXLSearchEJorunals {
+	background-color:#123456;
+	background-image: none;
+	border-top: 1px solid #F8F9FA;
+	border-bottom: 1px solid #F8F9FA;
+	
+}
+
+/* Controls Selected Tab on Simple Search Ribbon (only used for A-Z right now)*/
+#exlidSearchTabs li.EXLSearchTabSelected {
+    border: 1px solid #F8F9FA;
+    border-bottom: 1px solid #F8F9FA;
+    background-color: #F8F9FA;
+    background-image: none;
+}
+
+/* Contorls the A-Z Browse by Letter Selector */
+.EXLSearchEJorunalsListAtoZ a {
+    color: #FFFFFF;
+}
+
+/* Controls "Back to Simple Search" */
+#exlidSearchFieldRibbonSimpleSearchLink a {
+    color: #FFFFFF;
+}
+
+/* Controls "Find e-Journal by Title" text */
+.EXLSearchFieldRibbonFormSearchFor label {
+    color: #FFFFFF;
+}
+
+/* === Citation Linker === */
+/*======================= */
+
+/* Controls border and background of selected tab */
+.EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerSelectedTab {
+    border: 1px solid #F8F9FA;
+    border-bottom: 2px solid #F8F9FA;
+    background-color: #123456;
+    color: #ffffff;
+    background-image: none;
+}
+
+/* Controls thick border below the tabs */
+.EXLCitationLinkerTabsRibbon {
+    border-bottom: 2px solid #F8F9FA;
+}
+
+/* Controls Border of Input Boxes */
+#exlidCitationLinkerRibbon input {
+	border: 1px solid #123456;
+}
+
+/* Controls Buttons */
+#exlidCitationLinkerContainer input.EXLSubmit {
+    border: 1px solid #ffffff;
+    background-color: #F8F9FA;
+    background-image: none;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+/* === Hide DefaultImages ============================ */
+/*======These won't need to be changed================= */
+
+/* hide search banner image */
+
+#exlidSearchBanner {
+	display:none;	
+}
+
+/* hide featured area background image */
+
+#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeListsContainer {
+    margin-top: 0em;
+    background-image: none;
+    padding-top: 0.5em;
+}
+
+.EXLSearchFieldRibbonFormSelectedCollectionLabel a {
+    font-size: 90%;
+}
+
+
+/* ADD LINE COUNT TO BRIEF RESULTS for IE6/7 */
+.EXLResultsList td.EXLResultNumber { vertical-align: middle; display:table-cell; display:block; width:1%; }
+
+/* ADD LINE COUNT TO BRIEF RESULTS for IE<=8 Firefox */
+.EXLResultsList td.EXLResultNumber { vertical-align: middle; display:block; width:1%; }
+html:not([ie8andbelow]) .EXLResultsList td.EXLResultNumber { vertical-align: middle; display:table-cell; }

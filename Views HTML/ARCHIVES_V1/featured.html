@@ -1,0 +1,18 @@
+ <script>
+if (!$.PRIMO.session.user.isLoggedIn()) {        
+        $('body').prepend('<span id="myLoginMessage" style="display:block;top:0;background-color:orange;width:100%;text-align:center;">Please login for more results</span>');
+    }
+</script>
+	<div class="EXLHomeListsContainer">
+        <div class="EXLHomeTopicsContainer">
+          <h2>Search Tips:</h2><br>
+
+          <ul>
+            <li>Use quotes to search for <b>phrases</b> example: <a href="http://galileo-usg-archives-primo.hosted.exlibrisgroup.com/primo_library/libweb/action/search.do?fn=search&ct=search&initialSearch=true&mode=Basic&tab=default_tab&indx=1&dum=true&srt=rank&vid=ARCHIVES_V1&frbg=&tb=t&vl%28freeText0%29=civil+war&scp.scps=scope%3A%28GCSU%29&vl%281UIStartWith0%29=contains">"Civil War"</a></li> <br/>
+            <li>Use an * for <b>wildcard searches</b> example: <a href="http://galileo-usg-archives-primo.hosted.exlibrisgroup.com/primo_library/libweb/action/search.do?frbg=&indx=1&fn=search&dscnt=0&scp.scps=scope%3A(ARCHIVES_ALMA)%2Cscope%3A(ARCHIVES_CR)&tb=t&vid=ARCHIVES_V1&mode=Basic&ct=search&srt=rank&tab=default_tab&dum=true&vl(freeText0)=confed*">confed*</a> will return confederate and confederacy </li> <br/>
+            <li>AND, OR and NOT can be used for <b>boolean logic</b> example: <a href="http://galileo-usg-archives-primo.hosted.exlibrisgroup.com/primo_library/libweb/action/search.do?frbg=&indx=1&fn=search&dscnt=0&scp.scps=scope%3A(ARCHIVES_ALMA)%2Cscope%3A(ARCHIVES_CR)&tb=t&vid=ARCHIVES_V1&mode=Basic&ct=search&srt=rank&tab=default_tab&dum=true&vl(freeText0)=railroad%20AND%20Georgia%20NOT%20western&dstmp=1488402092550&fromSessionQuery=true
+">((railroad AND Georgia) NOT western)</a></li> <br/>
+            <li>Boolean operators (AND, OR, NOT) must be ALL CAPS</li><br/>
+          </ul>
+        </div>
+      </div>
